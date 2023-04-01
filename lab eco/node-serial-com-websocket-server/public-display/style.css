@@ -1,0 +1,58 @@
+* {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+button{ 
+    color: black;
+    border: none;
+    min-width: 8px;
+    height: 50px;
+    border-radius: 33px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.section{
+    display: flex;
+    margin: 40px;
+    border: 2px solid lightgray;
+    width: 70%;
+    height: 25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-section{
+border-radius: 20px;
+}
+
+.sec-button-section{
+    border-radius: 20px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/014/475/679/original/light-bulb-icon-light-bulb-ideas-and-creativity-analytical-thinking-for-innovation-processing-png.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.boton-bombillo1{
+    background-color: lightgreen ;
+}
+
+.boton-guardarInput{
+    background-color: lightsalmon;
+}
